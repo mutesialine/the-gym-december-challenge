@@ -1,6 +1,6 @@
 import Image from "next/image";
 import neubau  from "/public/images/neubau.webp";
-import Card from "../../ui/card";
+import Card from "../../ui/Card";
 import Button from "../../ui/Button";
 
    export default function Research() {

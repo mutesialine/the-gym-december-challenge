@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Button from "../../ui/Button";
-import Card from "../../ui/card";
+import Card from "../../ui/Card";
 import christian from "/public/images/Christian.webp";
 export default function Ground() {
   return (

@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 import presidential  from "/public/images/presidential.webp"
-import Card from "../../ui/card";
+import Card from "../../ui/Card";
 import Button from "../../ui/Button";
 export default function tum() {
   return (
