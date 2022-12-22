@@ -1,3 +1,4 @@
+const { fontFamily } = require("tailwindcss/defaultTheme");
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -34,6 +35,9 @@ module.exports = {
         19: "19.0625rem",
         49: "48.75rem",
         29: "29.9375rem",
+      },
+      fontFamily: {
+        sans: ["var(--font-roboto)", ...fontFamily.sans],
       },
     },
   },
