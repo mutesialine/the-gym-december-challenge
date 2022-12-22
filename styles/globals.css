@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+
+  .cardstyles{
+    @apply text-lightblue py-3 px-5
+  }
+  .dicoverbackground{
+    @apply bg-[url('/images/Heddergott.webp')]
+  }
+  .ratio-Up{
+    @apply w-[10%] bg-yellow mt-[10%]
+  }
+  .ratio-down{
+    @apply w-[10%] bg-transparent mb-[10%]
+  }
+}

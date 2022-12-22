@@ -1,6 +1,5 @@
 import Image from "next/image";
-export default function Newscard({img,pic,title, subtitle,date, paragraph,minutes}){
-  console.log(img , "sdfghjkdfghjk")
+export default function Newscard({img,title, subtitle,date, paragraph,minutes}){
   return(
     <div>
       <Image src={img} alt="picture" />

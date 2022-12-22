@@ -1,30 +1,30 @@
  export const data = [
   {
-    link: "https://www.tum.de/en/",
+    link: "/events",
     value: "NEWS AND EVENTS",
   },
   {
-    link: "https://www.tum.de/en/",
+    link: "/studies",
     value: "STUDIES",
   },
   {
-    link: "https://www.tum.de/en/",
+    link: "/learning",
     value: "LIFELONG LEARNING",
   },
   {
-    link: "https://www.tum.de/en/",
+    link: "/researchh",
     value: "RESEARCH",
   },
   {
-    link: "https://www.tum.de/en/",
+    link: "/innovation",
     value: "INNOVATION",
   },
   {
-    link: "https://www.tum.de/en/",
+    link: "/community",
     value: "COMMUNITY",
   },
   {
-    link: "https://www.tum.de/en/",
+    link: "/about",
     value: "ABOUT TUM",
   },
 ];
