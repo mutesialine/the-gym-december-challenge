@@ -19,7 +19,7 @@ export default function Discover(){
           </ul>
         </div>
         <div className=" bg-yellow w-[688px] h-27 py-27.5   px-32.25 -z-10 ">
-          <div className=" flex bg-[url('/Images/Heddergott.webp')] bg-center aspect-[249/140] w-full h-full bg-no-repeat bg-cover ">
+          <div className=" flex bg-[url('/images/Heddergott.webp')] bg-center aspect-[249/140] w-full h-full bg-no-repeat bg-cover ">
             <div className="ratio-Up"></div>
             <div className="ratio-down"></div>
             <div className="ratio-Up"></div>
