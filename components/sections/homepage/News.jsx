@@ -5,10 +5,9 @@ import laura from "/public/images/laura.webp"
 import Newscard from "../../ui/Newscard";
 import Image from "next/image";
 export default function News() {
-  console.log(csm, "yuuuuu");
   return (
     <div className="max-w-primary mx-auto px-6 mt-12 ">
-      <div className="flex justify-between">
+      <div className="space-y-6 xl:flex justify-between">
         <div className="  space-y-6">
           <h1 className="text-big font-bold">News from TUM</h1>
           <p className=" text-xl">
@@ -19,7 +18,7 @@ export default function News() {
             See All
           </button>
         </div>
-        <div className="flex w-1/2 gap-6">
+        <div className=" flex flex-col xl:flex-row xl:w-1/2 gap-6">
           <Newscard
             img={csm}
             subtitle="WirtschaftsWoche rankings"
@@ -48,7 +47,7 @@ TUM has retained its ranking as Germany’s strongest research university in bus
           />
         </div>
       </div>
-      <div className="w-1/2 flex gap-6 ml-96 mt-12">
+      <div className="flex flex-col space-y-6 xl:w-1/2 xl:flex-row gap-6 xl:ml-96  mt-12">
         <Newscard
           img={research}
           subtitle="Germany´s top research award"

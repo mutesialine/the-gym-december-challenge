@@ -9,6 +9,6 @@ export default function App({ Component, pageProps }) {
   return (
     <div className={`${roboto.variable} font-sans`}>
       <Component {...pageProps} />
-    </div>
+     </div>
   );
 }

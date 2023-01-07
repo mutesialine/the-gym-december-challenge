@@ -1,8 +1,8 @@
 export default function Number(){
   return (
-    <div className="max-w-primary mx-auto px-3   w-full">
-      <h1 className="text-darkblue font-bold text-4xl pb-6">TUM in number</h1>
-      <div className="flex gap-4">
+    <div className="max-w-primary mx-auto px-3   w-full  hidden xl:block">
+      <h1 className="text-darkblue font-bold text-4xl pb-10">TUM in number</h1>
+      <div className="xl:flex gap-4">
         <div className="bg-lightblue text-white w-3/5 space-y-5 px-8 py-4">
           <h1 className="text-9xl font-bold">50,000</h1>
           <p className="text-4xl">students</p>

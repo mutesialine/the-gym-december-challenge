@@ -11,10 +11,10 @@ import rss from "/public/icons/rss.svg";
 import excellent from "/public/icons/excellence.svg"
 export default function footer(){
   return (
-    <>
+    <div>
       <div className="bg-bluu w-full text-white pt-16 mt-12 pb-12  ">
         <div className="max-w-primary mx-auto px-6 text-base">
-          <div className=" flex justify-between gap-20">
+          <div className=" flex flex-col xl:flex-row justify-between gap-y-12 xl:gap-20">
             <div className="space-y-4">
               <div className="flex gap-2">
                 <Image src={icon2} className="w-20 invert" alt="icon" />
@@ -71,7 +71,7 @@ export default function footer(){
           </div>
 
           <div className="space-y-2">
-            <div className="flex pt-12 gap-6">
+            <div className=" flex flex-col xl:flex-row pt-12 gap-6">
               <p className="font-bold text-base">
                 schools and<span>departments:</span>{" "}
               </p>
@@ -86,7 +86,7 @@ export default function footer(){
                 <Tag title="Sport and Health Sciences" />
               </div>
             </div>
-            <div className="flex pt-12 gap-6">
+            <div className=" flex flex-col xl:flex-row pt-12 gap-6">
               <p className="font-bold text-base">Quicklinks:</p>
               <div className=" flex flex-wrap items-center gap-4">
                 <Tag title=" Departments:Computation, Information and Technology" />
@@ -104,8 +104,8 @@ export default function footer(){
       </div>
       <div className="bg-darkblue w-full text-white pt-12 pb-12">
         <div className=" max-w-primary mx-auto px-6">
-          <div className=" flex justify-between pb-8">
-            <div className=" text-semibold font-base  flex gap-3">
+          <div className="flex flex-col-reverse gap-y-6 xl:flex-row justify-between pb-8">
+            <div className=" text-semibold font-base flex flex-wrap xl:flex-row gap-3">
               <Link href="#" className="hover:underline">
                 Jobs
               </Link>
@@ -140,9 +140,12 @@ export default function footer(){
               </Link>
             </div>
           </div>
-          <div className="flex gap-6">
-            <Image src={excellent} alt="log"/>
-            <div className="  space-y-4 pt-4">
+          <div className="flex  gap-6">
+            <div className="object-cover pt-4 w-full h-full lg:w-16">
+              <Image src={excellent} alt="log" />
+            </div>
+
+            <div className=" flex flex-wrap  space-y-4 pt-4">
               <div>
                 <Link href="#" className="hover:underline">
                   <p>TUM Partners of Excellence</p>
@@ -164,6 +167,6 @@ export default function footer(){
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

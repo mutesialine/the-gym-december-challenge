@@ -22,6 +22,7 @@ module.exports = {
         rose: "#b55ca5",
         darkyellow: "#f7b11e",
         bluu: "#0a2d57",
+        heroblue: "#0b2e59",
       },
       maxWidth: {
         "8xl": "101rem", // 1616

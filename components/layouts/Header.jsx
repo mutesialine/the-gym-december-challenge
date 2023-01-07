@@ -9,11 +9,11 @@ export default function Header() {
     <div className=" bg-darkblue w-full px-6 py-5  fixed z-[100]">
       <div className="flex justify-between items-center text-white max-w-8xl mx-auto ">
         <Link href="/">
-          <div className="flex gap-4 ">
+          <div className="flex gap-4  ">
             <Image src={icon1} className="w-8 invert" alt="icon" />
             <div className="flex gap-2">
               <Image src={icon2} className="w-20 invert" alt="icon" />
-              <div className="text-xs">
+              <div className=" hidden xl:block text-xs">
                 <p>Techinical</p>
                 <p>University</p>
                 <p>Of Munich</p>
@@ -22,7 +22,7 @@ export default function Header() {
           </div>
         </Link>
         <div className="flex items-center gap-6">
-          <div className=" flex gap-6">
+          <div className=" hidden xl:flex gap-6 ">
             {data.map((element, index) => (
               <Link
                 href={element.link}
