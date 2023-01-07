@@ -8,6 +8,7 @@ import Research from "../components/sections/homepage/Research";
 import Ground from "../components/sections/homepage/Ground";
 import Numbers from "../components/sections/homepage/Numbers"
 import University from "../components/sections/homepage/University";
+import Support from "../components/sections/homepage/Support";
 import Footer from "../components/layouts/Footer";
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Research/>
       <Ground/>
       <University/>
+      <Support/>
       <Footer/>
     </>
   );

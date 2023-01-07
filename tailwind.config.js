@@ -23,6 +23,7 @@ module.exports = {
         darkyellow: "#f7b11e",
         bluu: "#0a2d57",
         heroblue: "#0b2e59",
+        lightpink: "#efedfc",
       },
       maxWidth: {
         "8xl": "101rem", // 1616
